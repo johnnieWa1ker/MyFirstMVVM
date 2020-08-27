@@ -80,6 +80,7 @@
 		7952F5D824F6D3A00084BE21 = {
 			isa = PBXGroup;
 			children = (
+				7932792924F7D255003A0562 /* README.md */,
 				7952F5E324F6D3A00084BE21 /* MVVM Arc */,
 				7952F5E224F6D3A00084BE21 /* Products */,
 				15AD07C81AC60D2CB8A9031F /* Pods */,
@@ -105,7 +106,6 @@
 				798ED6EF24F7074F007CAC66 /* ViewModel */,
 				7952F5F424F6D3A30084BE21 /* Info.plist */,
 				7952F5EF24F6D3A30084BE21 /* Assets.xcassets */,
-				7932792924F7D255003A0562 /* README.md */,
 			);
 			path = "MVVM Arc";
 			sourceTree = "<group>";

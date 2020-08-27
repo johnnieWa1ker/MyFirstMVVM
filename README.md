@@ -3,9 +3,9 @@
 
 A test project in which I try to do simple things on MVVM architecture
 
-  <p float="right">
-  
-  </p>
+<p float="right">
+    <img src="MVVM%20Arc/Assets.xcassets/Demo/demo1.imageset/demo1.png" width="32%"/>
+</p>
   
 
 ## 🏃‍♂️ Getting Started
