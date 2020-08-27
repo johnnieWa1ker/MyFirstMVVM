@@ -7,67 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		638BD16C5B3B3017F431C936D6660749 /* Pods-My First MVVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B18BBDE2AF0073192A52A9A05C14F4E8 /* Pods-My First MVVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A1A30EED34FC602A5FC78D9089C0C28 /* Pods-My First MVVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F04922B82107308DE2D7B30457E6E /* Pods-My First MVVM-dummy.m */; };
-		E728D87E5493723C575B87E1B52F4862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		41A79063EACBE95924C415ADCB6F1737 /* Pods-MVVM Arc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0AFADAE480C673A49DAD68E97815C3 /* Pods-MVVM Arc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		672BA82F9C1B6DA8FF68F232C7593F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9D6930A0E6C50E9CE170570FD9E99726 /* Pods-MVVM Arc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2272F7D5B46C3ACC17144F79271A0F3 /* Pods-MVVM Arc-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17583572D4CE9FCA3411E4B23271F66E /* Pods-My First MVVM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-My First MVVM-Info.plist"; sourceTree = "<group>"; };
-		2B1F04922B82107308DE2D7B30457E6E /* Pods-My First MVVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-My First MVVM-dummy.m"; sourceTree = "<group>"; };
+		1C87E04736CFAE00C01541048A4B87B6 /* Pods-MVVM Arc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVVM Arc-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25C47947B8C086554B77FD6BBE2D230E /* Pods-MVVM Arc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVM Arc-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		483AFF3B0BE274BC1C16A9227E73ED89 /* Pods_My_First_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_First_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BC48D4D786974A9182C4094198F0A81 /* Pods-My First MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-My First MVVM.release.xcconfig"; sourceTree = "<group>"; };
-		51314B93376C707012DF2D5377855055 /* Pods-My First MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-My First MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		4E0AFADAE480C673A49DAD68E97815C3 /* Pods-MVVM Arc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVVM Arc-umbrella.h"; sourceTree = "<group>"; };
+		6CEBDF27FD636534D8E21AA16FFE5F68 /* Pods-MVVM Arc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVM Arc-acknowledgements.plist"; sourceTree = "<group>"; };
+		755020D0E72C2AD3D49F37B32B2D7CBA /* Pods_MVVM_Arc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_Arc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B18BBDE2AF0073192A52A9A05C14F4E8 /* Pods-My First MVVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-My First MVVM-umbrella.h"; sourceTree = "<group>"; };
-		B8745FBBD1CA6B4D6C9E3375C1CE0403 /* Pods-My First MVVM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-My First MVVM-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6EB53822D639E7BC8618FF31217972D /* Pods-My First MVVM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-My First MVVM-acknowledgements.plist"; sourceTree = "<group>"; };
-		D957431894C278DDBC442E2BCBB7EED7 /* Pods-My First MVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-My First MVVM.modulemap"; sourceTree = "<group>"; };
+		A01C158699D5FEE58A360B30EC906DCB /* Pods-MVVM Arc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVM Arc.release.xcconfig"; sourceTree = "<group>"; };
+		E2272F7D5B46C3ACC17144F79271A0F3 /* Pods-MVVM Arc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVVM Arc-dummy.m"; sourceTree = "<group>"; };
+		E94F0194A77059910288EE734D19B408 /* Pods-MVVM Arc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVVM Arc.modulemap"; sourceTree = "<group>"; };
+		E9C2B4F008F97EF6A8020407CB5B0D89 /* Pods-MVVM Arc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVM Arc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B08C3A33BB22BBB5EBA51C1B770C26B /* Frameworks */ = {
+		8EF693F9E506667F65BE77CFBAE549F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E728D87E5493723C575B87E1B52F4862 /* Foundation.framework in Frameworks */,
+				672BA82F9C1B6DA8FF68F232C7593F94 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4334CC7A53378DA7939347C2CC920B84 /* Pods-My First MVVM */ = {
+		304EE409C6690C3F368E9CC19711BD90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D957431894C278DDBC442E2BCBB7EED7 /* Pods-My First MVVM.modulemap */,
-				B8745FBBD1CA6B4D6C9E3375C1CE0403 /* Pods-My First MVVM-acknowledgements.markdown */,
-				D6EB53822D639E7BC8618FF31217972D /* Pods-My First MVVM-acknowledgements.plist */,
-				2B1F04922B82107308DE2D7B30457E6E /* Pods-My First MVVM-dummy.m */,
-				17583572D4CE9FCA3411E4B23271F66E /* Pods-My First MVVM-Info.plist */,
-				B18BBDE2AF0073192A52A9A05C14F4E8 /* Pods-My First MVVM-umbrella.h */,
-				51314B93376C707012DF2D5377855055 /* Pods-My First MVVM.debug.xcconfig */,
-				4BC48D4D786974A9182C4094198F0A81 /* Pods-My First MVVM.release.xcconfig */,
-			);
-			name = "Pods-My First MVVM";
-			path = "Target Support Files/Pods-My First MVVM";
-			sourceTree = "<group>";
-		};
-		7A22F47EA8501CEDCA968B275F0D2EF9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4334CC7A53378DA7939347C2CC920B84 /* Pods-My First MVVM */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A2D31F4678AE7A25F4111A6F411A7FAE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				483AFF3B0BE274BC1C16A9227E73ED89 /* Pods_My_First_MVVM.framework */,
+				755020D0E72C2AD3D49F37B32B2D7CBA /* Pods_MVVM_Arc.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8253B81C37B366355A35D09078BE5CE6 /* Pods-MVVM Arc */ = {
+			isa = PBXGroup;
+			children = (
+				E94F0194A77059910288EE734D19B408 /* Pods-MVVM Arc.modulemap */,
+				1C87E04736CFAE00C01541048A4B87B6 /* Pods-MVVM Arc-acknowledgements.markdown */,
+				6CEBDF27FD636534D8E21AA16FFE5F68 /* Pods-MVVM Arc-acknowledgements.plist */,
+				E2272F7D5B46C3ACC17144F79271A0F3 /* Pods-MVVM Arc-dummy.m */,
+				25C47947B8C086554B77FD6BBE2D230E /* Pods-MVVM Arc-Info.plist */,
+				4E0AFADAE480C673A49DAD68E97815C3 /* Pods-MVVM Arc-umbrella.h */,
+				E9C2B4F008F97EF6A8020407CB5B0D89 /* Pods-MVVM Arc.debug.xcconfig */,
+				A01C158699D5FEE58A360B30EC906DCB /* Pods-MVVM Arc.release.xcconfig */,
+			);
+			name = "Pods-MVVM Arc";
+			path = "Target Support Files/Pods-MVVM Arc";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -78,13 +70,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CCBFA40E4FE1076E89A144725DD06E15 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8253B81C37B366355A35D09078BE5CE6 /* Pods-MVVM Arc */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A2D31F4678AE7A25F4111A6F411A7FAE /* Products */,
-				7A22F47EA8501CEDCA968B275F0D2EF9 /* Targets Support Files */,
+				304EE409C6690C3F368E9CC19711BD90 /* Products */,
+				CCBFA40E4FE1076E89A144725DD06E15 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,33 +99,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7FB62DB7036FDD333B636115FEDB5398 /* Headers */ = {
+		2DA931404F38E33B7DE4672445849A2F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				638BD16C5B3B3017F431C936D6660749 /* Pods-My First MVVM-umbrella.h in Headers */,
+				41A79063EACBE95924C415ADCB6F1737 /* Pods-MVVM Arc-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5E1B1699BE12B6C6440E1CB9CE4A4CAF /* Pods-My First MVVM */ = {
+		8CB3F12A101E4BAA155FA71EA31223C0 /* Pods-MVVM Arc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 737A595A8E6999BAC60BA3F67E67C1A7 /* Build configuration list for PBXNativeTarget "Pods-My First MVVM" */;
+			buildConfigurationList = 5976C52328D2ABF419E3601BB8CC2BB0 /* Build configuration list for PBXNativeTarget "Pods-MVVM Arc" */;
 			buildPhases = (
-				7FB62DB7036FDD333B636115FEDB5398 /* Headers */,
-				25A78E0DBE8AA4DFFB34D9CF60C71E03 /* Sources */,
-				2B08C3A33BB22BBB5EBA51C1B770C26B /* Frameworks */,
-				DF473534C0AEA87635A39894198DB6CB /* Resources */,
+				2DA931404F38E33B7DE4672445849A2F /* Headers */,
+				871F00457C21EFB7BAAD24622E982746 /* Sources */,
+				8EF693F9E506667F65BE77CFBAE549F6 /* Frameworks */,
+				D6F9419DED219D0C80D7FA02A8DE0DEF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-My First MVVM";
-			productName = "Pods-My First MVVM";
-			productReference = 483AFF3B0BE274BC1C16A9227E73ED89 /* Pods_My_First_MVVM.framework */;
+			name = "Pods-MVVM Arc";
+			productName = "Pods-MVVM Arc";
+			productReference = 755020D0E72C2AD3D49F37B32B2D7CBA /* Pods_MVVM_Arc.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -146,17 +146,17 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A2D31F4678AE7A25F4111A6F411A7FAE /* Products */;
+			productRefGroup = 304EE409C6690C3F368E9CC19711BD90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E1B1699BE12B6C6440E1CB9CE4A4CAF /* Pods-My First MVVM */,
+				8CB3F12A101E4BAA155FA71EA31223C0 /* Pods-MVVM Arc */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF473534C0AEA87635A39894198DB6CB /* Resources */ = {
+		D6F9419DED219D0C80D7FA02A8DE0DEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,20 +166,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		25A78E0DBE8AA4DFFB34D9CF60C71E03 /* Sources */ = {
+		871F00457C21EFB7BAAD24622E982746 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A1A30EED34FC602A5FC78D9089C0C28 /* Pods-My First MVVM-dummy.m in Sources */,
+				9D6930A0E6C50E9CE170570FD9E99726 /* Pods-MVVM Arc-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2CC6AECB983A0F64AAD7E23F933F1BB3 /* Release */ = {
+		290DA19EDE91ECA780804B2B33C63500 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BC48D4D786974A9182C4094198F0A81 /* Pods-My First MVVM.release.xcconfig */;
+			baseConfigurationReference = A01C158699D5FEE58A360B30EC906DCB /* Pods-MVVM Arc.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -192,7 +192,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-My First MVVM/Pods-My First MVVM-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVVM Arc/Pods-MVVM Arc-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -201,7 +201,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-My First MVVM/Pods-My First MVVM.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MVVM Arc/Pods-MVVM Arc.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -215,44 +215,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		43C1F75B30FD21FA4080405E0CE00D73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51314B93376C707012DF2D5377855055 /* Pods-My First MVVM.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-My First MVVM/Pods-My First MVVM-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-My First MVVM/Pods-My First MVVM.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -380,6 +342,44 @@
 			};
 			name = Release;
 		};
+		B671635705EB4F83FE81A87BE104E01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C2B4F008F97EF6A8020407CB5B0D89 /* Pods-MVVM Arc.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVVM Arc/Pods-MVVM Arc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVVM Arc/Pods-MVVM Arc.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -392,11 +392,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		737A595A8E6999BAC60BA3F67E67C1A7 /* Build configuration list for PBXNativeTarget "Pods-My First MVVM" */ = {
+		5976C52328D2ABF419E3601BB8CC2BB0 /* Build configuration list for PBXNativeTarget "Pods-MVVM Arc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43C1F75B30FD21FA4080405E0CE00D73 /* Debug */,
-				2CC6AECB983A0F64AAD7E23F933F1BB3 /* Release */,
+				B671635705EB4F83FE81A87BE104E01D /* Debug */,
+				290DA19EDE91ECA780804B2B33C63500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
